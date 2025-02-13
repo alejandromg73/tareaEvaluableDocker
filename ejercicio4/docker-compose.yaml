@@ -1,0 +1,6 @@
+services:
+  htop:
+    image: terencewestphal/htop
+    container_name: htop_app
+    stdin_open: true
+    tty: true
